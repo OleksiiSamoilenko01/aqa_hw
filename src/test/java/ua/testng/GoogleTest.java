@@ -19,6 +19,6 @@ public class GoogleTest {
 
         Assert.assertEquals(driver.getTitle(), "Google", "String not match");
 
-        driver.quit();
+        driver.close();
     }
 }
