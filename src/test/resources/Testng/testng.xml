@@ -4,8 +4,7 @@
 <suite name="SimpleTest suite name">
     <test name="SimpleTest test name">
         <classes>
-            <class name="ua.testng.FirstTest"></class>
-            <class name="ua.testng.GoogleTest"></class>
+            <class name="ua.testng.testsHomework"></class>
         </classes>
     </test>
 </suite>
