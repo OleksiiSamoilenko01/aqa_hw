@@ -17,7 +17,7 @@ public class GoogleTest {
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-        Assert.assertEquals(driver.getTitle(), "Google");
+        Assert.assertEquals(driver.getTitle(), "Google", "String not match");
 
         driver.quit();
     }
